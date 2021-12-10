@@ -1,0 +1,45 @@
+body {
+  background-color: #ffffff;
+}
+
+h1 {
+  font-family: verdana;
+  margin-left: 20px;
+  font-size: 36px;  
+  color: #000000;
+}
+
+h2 {
+  font-family: verdana;
+  margin-left: 20px;
+  font-size: 24px;  
+  color: #000000;
+}
+
+h3 {
+  font-family: verdana;
+  margin-left: 20px;
+  font-size: 20px;  
+  color: #000000;
+}
+
+h4 {
+  font-family: verdana;
+  margin-left: 20px;
+  font-size: 18px;  
+  color: #000000;
+}
+
+h5 {
+  font-family: verdana;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #000000;
+}
+
+p {
+  font-family: verdana;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #000000;
+}
