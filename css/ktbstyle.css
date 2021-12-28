@@ -164,6 +164,10 @@ a:visited {
  padding-right: 1rem;
 }
 
+#homesocialicon fa {
+ color: #ffffff;
+}
+
 .footer {
   margin-left: 0;
   margin-top: 2rem;
