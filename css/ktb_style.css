@@ -9,8 +9,8 @@ body, html {
 
 
 .bgimg {
-  /* background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('../img/park-troopers-RAtKWVlfdf4-unsplash.jpg'); */
-  background: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) );
+  /* background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('../img/bg/park-troopers-RAtKWVlfdf4-unsplash.jpg'); */
+  background: linear-gradient( rgba(10, 10, 10, 1), rgba(10, 10, 10, 1) );
   min-height: 100%;
   background-position: center;
   background-size: cover;
