@@ -20,7 +20,7 @@ html {
   left: 0;
   right: 0;
   top: 40%;
-  color: #ffffff;
+  color: white;
   text-align: center;
   font-family: "Lexend", sans-serif;
   font-weight: 400;
@@ -32,7 +32,7 @@ html {
 
 
 a:link, a:visited {
-  background-color: #000000;
+  background-color: black;
   color: white;
   padding: 5px 5px;
   text-align: center;
@@ -42,12 +42,12 @@ a:link, a:visited {
 
 a:hover, a:active {
   background-color: white;
-  color: #000000;
+  color: black;
 }
   
 a:link, a:visited {
-  background-color: #000000;
-  color: #000000;
+  background-color: white;
+  color: black;
   padding: 5px 5px;
   text-align: center;
   text-decoration: none;
