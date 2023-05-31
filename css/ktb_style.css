@@ -1,55 +1,182 @@
+/* HTML, body, header, and footer */
+
 html {
-  height: 100%;
-  background: radial-gradient(ellipse at top, #161616 0%, #000000 100%);
-  overflow: hidden;
+  font-size: 16px;
+}
+
+body {
+  max-width: 960px;
+  margin: auto;
+  background: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+header {
+background-color: white;
+}
+
+footer {
+background-color: white;
 }
 
 
-.container {
-  z-index: 3; 
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 10%;
-  left: 50%;
+/* TAGS - Paragraphs, headings, links, and lists*/
+
+p {
+  font-size: 1rem;
+  color: darkslategrey;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-
-#social {
-  z-index: 3; 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 40%;
-  color: white;
-  text-align: center;
-  font-family: "Lexend", sans-serif;
-  font-weight: 400;
-  font-size: 30px;
-  letter-spacing: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
+h1, h2, h3, h4 {
+  color: darkslategrey;
 }
 
-
-a:link, a:visited {
-  background-color: black;
-  color: white;
-  padding: 5px 5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
-a:hover, a:active {
-  background-color: white;
+h2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+a {
+  color: blue;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+a:active {
+  color: blue;
+}
+
+a:hover {
+  background-color: yellow;
   color: black;
 }
-  
-a:link, a:visited {
-  background-color: white;
+
+a:focus {
+  background-color: yellow;
   color: black;
-  padding: 5px 5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
 }
+
+a.social-item-link {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+ul li a {
+  color: blue;
+}
+
+ul li a:hover{
+  background-color: yellow;
+  color: black;
+}
+
+ul.social-list {
+  list-style: none;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+li.social-item {
+  margin: 0.25rem;
+  padding: 0.25rem;
+}
+
+ul.breadcrumb {
+  list-style: none;
+  padding-inline-start: 0.5rem;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-weight: 700;
+  color: darkslategrey;
+}
+
+ul.breadcrumb li+li:before {
+  color: darkslategrey;
+  content: ">\00a0";
+  margin: 0.5rem;
+}
+
+
+/* CLASSES - Content */
+
+.content {
+  background-color: white;
+}
+
+.crumbs {
+  background-color: white;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  padding: 0.25rem;
+  padding-bottom: 0rem;
+}
+
+.footer-content {
+  margin-top: 2rem;
+  border-top: 1px solid slategrey;
+}
+
+
+/* CLASSES - Text */
+
+.para-standard {
+  margin: 0.25rem;
+  padding: 0.25rem;
+}
+
+.head-standard {
+  margin: 0.25rem;
+  padding: 0.25rem;
+}
+
+.head-page {
+  margin: 0.25rem;
+  margin-bottom: 2rem;
+  margin-top: 0rem;
+  padding: 0.25rem;
+  padding-top: 0rem;
+}
+
+
+/* CLASSES - Brand styling */
+
+.brand {
+  margin: 0.25rem;
+  padding: 0.25rem;
+}
+
+.brand-name {
+  font-size: 2rem;
+  color: darkslategrey;
+}
+
+.brand-sub {
+  font-size: 1rem;
+  color: darkslategrey;
+}
+
+/* MEDIA QUERIES */
