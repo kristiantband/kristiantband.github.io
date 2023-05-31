@@ -78,6 +78,18 @@ a:focus {
   color: black;
 }
 
+span.brand-name a {
+  color: darkslategrey;
+  font-size: 2rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+span.brand-name a:hover {
+  background-color: yellow;
+  color: black;
+}
+
 a.social-item-link {
   font-size: 1rem;
   font-weight: 700;
@@ -183,4 +195,6 @@ ul.breadcrumb li+li:before {
   color: darkslategrey;
 }
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES - responsive */
+
+/* MEDIA QUERIES - dark mode */
