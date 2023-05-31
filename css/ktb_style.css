@@ -179,4 +179,8 @@ ul.breadcrumb li+li:before {
   color: darkslategrey;
 }
 
+.material-symbols-rounded {
+  color: seagreen;
+}
+
 /* MEDIA QUERIES */
