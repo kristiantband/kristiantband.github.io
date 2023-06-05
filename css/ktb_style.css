@@ -2,12 +2,14 @@
 
 html {
   font-size: 16px;
+  line-height: 2;
 }
 
 body {
   background: white;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
+  line-height: 2;
 }
 
 header {
@@ -28,6 +30,16 @@ p {
   margin-bottom: 0;
 }
 
+.callout-light p {
+  padding: 1rem;
+  color: darkslategrey;
+}
+
+.callout-dark p {
+  padding: 1rem;
+  color: whitesmoke;
+}
+
 h1, h2, h3, h4 {
   color: darkslategrey;
 }
@@ -42,6 +54,7 @@ h2 {
   font-size: 2rem;
   margin-top: 1rem;
   margin-bottom: 0;
+  border-top: 1px solid lightslategrey;
 }
 
 h3 {
@@ -93,6 +106,10 @@ a.social-item-link {
   font-weight: 700;
 }
 
+ul {
+  list-style-type: square;
+}
+
 ul li a {
   color: blue;
 }
@@ -135,7 +152,7 @@ ul.breadcrumb li+li:before {
 
 .content {
   background-color: white;
-  max-width: 900px;
+  max-width: 992px;
   margin: 0 auto;
 }
 
@@ -156,11 +173,23 @@ ul.breadcrumb li+li:before {
   background-color: whitesmoke;
 }
 
+.callout-light {
+  margin: 0rem;
+  padding: 0.25rem;
+  background-color: whitesmoke;
+}
+
+.callout-dark {
+  margin: 0rem;
+  padding: 0.25rem;
+  background-color: darkslategrey;
+}
+
 
 /* CLASSES - Text */
 
 .para-standard {
-  margin: 0.25rem;
+  margin: 0rem;
   padding: 0.25rem;
 }
 
@@ -174,7 +203,7 @@ ul.breadcrumb li+li:before {
 }
 
 .head-standard {
-  margin: 0.25rem;
+  margin: 0rem;
   padding: 0.25rem;
 }
 
