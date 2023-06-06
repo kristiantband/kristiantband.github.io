@@ -52,7 +52,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  margin-top: 1rem;
+  margin-top: 4rem;
   margin-bottom: 0;
   border-top: 1px solid lightslategrey;
 }
@@ -199,7 +199,6 @@ ul.breadcrumb li+li:before {
   margin-bottom: 0.25rem;
   padding: 1rem;
   font-weight: 700;
-  text-align: right;
 }
 
 .head-standard {
@@ -223,10 +222,9 @@ ul.breadcrumb li+li:before {
   max-width: 992px;
   margin: 0.25rem auto;
   padding: 0.25rem;
-  position: sticky;
-  top: 0;
+  /* position: sticky;
+  top: 0;*/
   background-color: white;
-  border-bottom: 1px solid lightslategrey;
 }
 
 .brand-name {
@@ -243,6 +241,136 @@ ul.breadcrumb li+li:before {
   color: darkslategrey;
 }
 
-/* MEDIA QUERIES - responsive */
+#symbol-top {
+  color: white;
+}
+
+
+/* CLASSES - Buttons */
+
+.btn {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn-large {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: green;
+  color: white;
+  padding: 1rem;
+  border-radius: 0;
+  border: none;
+  outline: none;
+}
+.btn-large:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+.btn-medium {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: green;
+  color: white;
+  padding: 0.75rem;
+  border-radius: 0;
+  border: none;
+  outline: none;
+}
+.btn-medium:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+.btn-small {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: green;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0;
+  border: none;
+  outline: none;
+}
+.btn-small:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+
+/* IDs - Go to top */
+
+#btn-gtt {
+  display: none;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 99;
+  border: 2px solid white;
+  background-color: green;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem; 
+}
+
+#btn-gtt:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+
+/* MEDIA QUERIES - flex box cards */
+
+.flex-card {
+  background-color: whitesmoke;
+}
+  
+.flex-card-content {
+  background-color: whitesmoke;
+}
+  
+.flex-card-content h3 {
+  padding-left: 1rem;
+}
+  
+.flex-card-content p {
+  padding-left: 1rem;
+}
+
+.flex-card-content .btn {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+ 
+@media screen and (min-width: 600px) {
+  .flex-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  .flex-card {
+    display: flex;
+    flex: 0 1 calc(50% - 1rem);
+    margin-bottom: 1rem;
+  }
+}
+  
+@media screen and (min-width: 768px) {
+  .flex-cards {
+    margin-top: inherit;
+  }
+  .flex-card {
+    flex: 0 1 calc(25% - 1rem);
+    margin-bottom: 1rem;
+  }
+}
+
 
 /* MEDIA QUERIES - dark mode */
