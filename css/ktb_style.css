@@ -241,7 +241,7 @@ ul.breadcrumb li+li:before {
   color: darkslategrey;
 }
 
-#symbol-top {
+.symbol-top {
   color: white;
 }
 
@@ -302,7 +302,7 @@ ul.breadcrumb li+li:before {
 }
 
 
-/* IDs - Go to top */
+/* GLASSES - Go to top */
 
 #btn-gtt {
   display: none;
