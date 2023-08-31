@@ -209,8 +209,8 @@ ul.breadcrumb li+li:before {
 
 .para-footer {
   margin: auto;
-  margin-top: 2rem;
-  margin-bottom: 0.25rem;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 1rem;
   font-weight: 700;
 }
