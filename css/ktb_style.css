@@ -279,6 +279,7 @@ ul.breadcrumb li+li:before {
   border-radius: 0;
   border: none;
   outline: none;
+  position:
 }
 .btn-medium:hover {
   background-color: darkgreen;
@@ -310,66 +311,11 @@ ul.breadcrumb li+li:before {
   bottom: 25px;
   right: 25px;
   z-index: 99;
-  border: 2px solid white;
-  background-color: green;
-  color: white;
-  padding: 0.5rem;
-  border-radius: 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem; 
 }
 
 #btn-gtt:hover {
   background-color: darkgreen;
   cursor: pointer;
-}
-
-
-/* MEDIA QUERIES - flex box cards */
-
-.flex-card {
-  background-color: whitesmoke;
-}
-  
-.flex-card-content {
-  background-color: whitesmoke;
-}
-  
-.flex-card-content h3 {
-  padding-left: 1rem;
-}
-  
-.flex-card-content p {
-  padding-left: 1rem;
-}
-
-.flex-card-content .btn {
-  margin-top: 1rem;
-  margin-bottom: 0;
-}
- 
-@media screen and (min-width: 600px) {
-  .flex-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 1rem;
-  }
-  .flex-card {
-    display: flex;
-    flex: 0 1 calc(50% - 1rem);
-    margin-bottom: 1rem;
-  }
-}
-  
-@media screen and (min-width: 768px) {
-  .flex-cards {
-    margin-top: inherit;
-  }
-  .flex-card {
-    flex: 0 1 calc(25% - 1rem);
-    margin-bottom: 1rem;
-  }
 }
 
 
