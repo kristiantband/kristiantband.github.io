@@ -293,8 +293,8 @@ ul.breadcrumb li+li:before {
   border-radius: 0;
   border: none;
   outline: none;
-  position:
 }
+
 .btn-medium:hover {
   background-color: darkgreen;
   cursor: pointer;
@@ -317,7 +317,7 @@ ul.breadcrumb li+li:before {
 }
 
 
-/* GLASSES - Go to top */
+/* CLASSES - Go to top */
 
 #btn-gtt {
   display: none;
