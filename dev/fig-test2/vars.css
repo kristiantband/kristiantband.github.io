@@ -1,0 +1,116 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --myport-primary-dark-blue: #005681;
+  --myport-primary-light-blue: #0078b4;
+  --myport-secondary-dark-purple: #3c023c;
+  --myport-secondary-light-purple: #621360;
+  --myport-accent-blue: #00a0ff;
+  --myport-accent-purple: #ff9dfd;
+  --uop-black: #000000;
+  --uop-dark-grey: #505457;
+  --uop-mid-grey: #abaaaa;
+  --uop-light-grey: #d1d1d1;
+  --uop-lighter-grey: rgba(247, 247, 247, 0.97);
+  --uop-off-white: rgba(250, 250, 250, 0.98);
+  --uop-white: #ffffff;
+
+  /* Fonts */
+  --headings-drupal-h1-greater768px-font-family: EncodeSansExpanded-Bold,
+    sans-serif;
+  --headings-drupal-h1-greater768px-font-size: 34px;
+  --headings-drupal-h1-greater768px-line-height: normal;
+  --headings-drupal-h1-greater768px-font-weight: 700;
+  --headings-drupal-h1-greater768px-font-style: normal;
+  --headings-drupal-h1-less768px-font-family: EncodeSansExpanded-Bold,
+    sans-serif;
+  --headings-drupal-h1-less768px-font-size: 24px;
+  --headings-drupal-h1-less768px-line-height: normal;
+  --headings-drupal-h1-less768px-font-weight: 700;
+  --headings-drupal-h1-less768px-font-style: normal;
+  --headings-drupal-h2-greater768px-font-family: EncodeSansExpanded-Medium,
+    sans-serif;
+  --headings-drupal-h2-greater768px-font-size: 24px;
+  --headings-drupal-h2-greater768px-line-height: normal;
+  --headings-drupal-h2-greater768px-font-weight: 500;
+  --headings-drupal-h2-greater768px-font-style: normal;
+  --headings-drupal-h2-less768px-font-family: EncodeSansExpanded-Medium,
+    sans-serif;
+  --headings-drupal-h2-less768px-font-size: 20px;
+  --headings-drupal-h2-less768px-line-height: normal;
+  --headings-drupal-h2-less768px-font-weight: 500;
+  --headings-drupal-h2-less768px-font-style: normal;
+  --headings-drupal-h3-greater768px-font-family: EncodeSansExpanded-Medium,
+    sans-serif;
+  --headings-drupal-h3-greater768px-font-size: 20px;
+  --headings-drupal-h3-greater768px-line-height: normal;
+  --headings-drupal-h3-greater768px-font-weight: 500;
+  --headings-drupal-h3-greater768px-font-style: normal;
+  --headings-drupal-h3-less768px-font-family: EncodeSansExpanded-Medium,
+    sans-serif;
+  --headings-drupal-h3-less768px-font-size: 16px;
+  --headings-drupal-h3-less768px-line-height: normal;
+  --headings-drupal-h3-less768px-font-weight: 500;
+  --headings-drupal-h3-less768px-font-style: normal;
+  --headings-drupal-h4-greater768px-font-family: EncodeSansExpanded-Medium,
+    sans-serif;
+  --headings-drupal-h4-greater768px-font-size: 18px;
+  --headings-drupal-h4-greater768px-line-height: normal;
+  --headings-drupal-h4-greater768px-font-weight: 500;
+  --headings-drupal-h4-greater768px-font-style: normal;
+  --headings-drupal-h4-less768px-font-family: EncodeSansExpanded-Medium,
+    sans-serif;
+  --headings-drupal-h4-less768px-font-size: 15px;
+  --headings-drupal-h4-less768px-line-height: normal;
+  --headings-drupal-h4-less768px-font-weight: 500;
+  --headings-drupal-h4-less768px-font-style: normal;
+  --headings-drupal-h5-greater768px-font-family: EncodeSansExpanded-Medium,
+    sans-serif;
+  --headings-drupal-h5-greater768px-font-size: 13px;
+  --headings-drupal-h5-greater768px-line-height: normal;
+  --headings-drupal-h5-greater768px-font-weight: 500;
+  --headings-drupal-h5-greater768px-font-style: normal;
+  --headings-drupal-h5-less768px-font-family: EncodeSansExpanded-Medium,
+    sans-serif;
+  --headings-drupal-h5-less768px-font-size: 13px;
+  --headings-drupal-h5-less768px-line-height: normal;
+  --headings-drupal-h5-less768px-font-weight: 500;
+  --headings-drupal-h5-less768px-font-style: normal;
+  --headings-drupal-h6-greater768px-font-family: EncodeSansExpanded-Medium,
+    sans-serif;
+  --headings-drupal-h6-greater768px-font-size: 13px;
+  --headings-drupal-h6-greater768px-line-height: normal;
+  --headings-drupal-h6-greater768px-font-weight: 500;
+  --headings-drupal-h6-greater768px-font-style: normal;
+  --headings-drupal-h6-less768px-font-family: EncodeSansExpanded-Medium,
+    sans-serif;
+  --headings-drupal-h6-less768px-font-size: 13px;
+  --headings-drupal-h6-less768px-line-height: normal;
+  --headings-drupal-h6-less768px-font-weight: 500;
+  --headings-drupal-h6-less768px-font-style: normal;
+  --paragraphs-drupal-paragraph-greater768px-font-family: OpenSans-Regular,
+    sans-serif;
+  --paragraphs-drupal-paragraph-greater768px-font-size: 15px;
+  --paragraphs-drupal-paragraph-greater768px-line-height: normal;
+  --paragraphs-drupal-paragraph-greater768px-font-weight: 400;
+  --paragraphs-drupal-paragraph-greater768px-font-style: normal;
+  --paragraphs-drupal-paragraph-less768px-font-family: OpenSans-Regular,
+    sans-serif;
+  --paragraphs-drupal-paragraph-less768px-font-size: 15px;
+  --paragraphs-drupal-paragraph-less768px-line-height: normal;
+  --paragraphs-drupal-paragraph-less768px-font-weight: 400;
+  --paragraphs-drupal-paragraph-less768px-font-style: normal;
+  --call-to-action-button-label-font-family: EncodeSansExpanded-Bold, sans-serif;
+  --call-to-action-button-label-font-size: 13px;
+  --call-to-action-button-label-line-height: normal;
+  --call-to-action-button-label-font-weight: 700;
+  --call-to-action-button-label-font-style: normal;
+  --call-to-action-alert-banner-message-font-family: EncodeSansExpanded-Bold,
+    sans-serif;
+  --call-to-action-alert-banner-message-font-size: 13px;
+  --call-to-action-alert-banner-message-line-height: normal;
+  --call-to-action-alert-banner-message-font-weight: 700;
+  --call-to-action-alert-banner-message-font-style: normal;
+
+  /* Effects */
+}
