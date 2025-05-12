@@ -1,0 +1,1376 @@
+.homepage-mobile,
+.homepage-mobile * {
+  box-sizing: border-box;
+}
+.homepage-mobile {
+  background: #ffffff;
+  height: 912px;
+  position: relative;
+}
+.frame-328 {
+  background: var(--uop-white, #ffffff);
+  padding: 24px 0px 24px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 450px;
+  position: absolute;
+  left: 0px;
+  top: 92px;
+}
+.left-side {
+  background: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.quick-links-columns {
+  padding: 16px 0px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.quick-link-cards-col {
+  padding: 0px 16px 0px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 334px;
+  position: relative;
+}
+.student-staff-services {
+  color: var(--myport-primary-dark-blue, #005681);
+  text-align: left;
+  font-family: var(
+    --headings-drupal-h1-less768px-font-family,
+    "EncodeSansExpanded-Bold",
+    sans-serif
+  );
+  font-size: var(--headings-drupal-h1-less768px-font-size, 24px);
+  font-weight: var(--headings-drupal-h1-less768px-font-weight, 700);
+  position: relative;
+}
+.frame-324 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.quick-links {
+  color: var(--myport-secondary-dark-purple, #3c023c);
+  text-align: left;
+  font-family: var(
+    --headings-drupal-h1-less768px-font-family,
+    "EncodeSansExpanded-Bold",
+    sans-serif
+  );
+  font-size: var(--headings-drupal-h1-less768px-font-size, 24px);
+  font-weight: var(--headings-drupal-h1-less768px-font-weight, 700);
+  position: relative;
+  width: 428px;
+}
+.frame-317 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  row-gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex-shrink: 0;
+  width: 429px;
+  position: relative;
+  overflow: hidden;
+}
+.homepage-hero-card-myport-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.homepage-hero-card-icon {
+  background: var(--myport-primary-dark-blue, #005681);
+  padding: 16px 8px 16px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.frame-299 {
+  padding: 0px 8px 0px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.page-title {
+  color: var(--uop-white, #ffffff);
+  text-align: left;
+  font-family: var(
+    --headings-drupal-h2-greater768px-font-family,
+    "EncodeSansExpanded-Medium",
+    sans-serif
+  );
+  font-size: var(--headings-drupal-h2-greater768px-font-size, 24px);
+  font-weight: var(--headings-drupal-h2-greater768px-font-weight, 500);
+  position: relative;
+}
+.moodle-i {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.page-title2 {
+  color: var(--uop-white, #ffffff);
+  text-align: left;
+  font-family: var(
+    --headings-drupal-h3-greater768px-font-family,
+    "EncodeSansExpanded-Medium",
+    sans-serif
+  );
+  font-size: var(--headings-drupal-h3-greater768px-font-size, 20px);
+  font-weight: var(--headings-drupal-h3-greater768px-font-weight, 500);
+  position: relative;
+}
+.moodle-i2 {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+.frame-409 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.mail {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.rectangle-1 {
+  background: var(--myport-accent-blue, #00a0ff);
+  width: 7.13px;
+  height: 46.52px;
+  position: absolute;
+  left: 10.58px;
+  top: 29.65px;
+  transform-origin: 0 0;
+  transform: rotate(-58.094deg) scale(1, 1);
+}
+.rectangle-3 {
+  background: var(--myport-primary-light-blue, #0078b4);
+  width: 6px;
+  height: 46px;
+  position: absolute;
+  left: 10px;
+  top: 22px;
+}
+.rectangle-2 {
+  background: var(--myport-accent-blue, #00a0ff);
+  width: 7.57px;
+  height: 46.52px;
+  position: absolute;
+  left: 85.34px;
+  top: 23px;
+  transform-origin: 0 0;
+  transform: rotate(57.751deg) scale(1, 1);
+}
+.rectangle-4 {
+  background: var(--myport-primary-light-blue, #0078b4);
+  width: 6px;
+  height: 46px;
+  position: absolute;
+  left: 84px;
+  top: 22px;
+}
+.book-2 {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.rectangle-12 {
+  background: var(--myport-accent-blue, #00a0ff);
+  width: 7px;
+  height: 46px;
+  position: absolute;
+  left: 34px;
+  top: 17px;
+}
+.timetable {
+  background: var(--uop-lighter-grey, rgba(247, 247, 247, 0.97));
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 214px;
+  height: 248px;
+  position: relative;
+}
+.my-timetable {
+  color: var(--myport-primary-light-blue, #0078b4);
+  text-align: left;
+  font-family: "EncodeSansExpanded-Bold", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  position: relative;
+}
+.image-1 {
+  flex-shrink: 0;
+  width: 181px;
+  height: 192px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 181/192;
+}
+.timetable2 {
+  background: var(--uop-lighter-grey, rgba(247, 247, 247, 0.97));
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 182px;
+  height: 248px;
+  position: relative;
+}
+.student-view {
+  color: var(--myport-primary-light-blue, #0078b4);
+  text-align: left;
+  font-family: "EncodeSansExpanded-Bold", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  position: relative;
+}
+.frame-302 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 181px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-304 {
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 64px;
+  position: relative;
+}
+.frame-3022 {
+  background: var(--myport-primary-light-blue, #0078b4);
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.frame-303 {
+  background: var(--myport-primary-light-blue, #0078b4);
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.frame-3023 {
+  background: var(--myport-primary-light-blue, #0078b4);
+  opacity: 0.5;
+  flex-shrink: 0;
+  width: 76px;
+  height: 181px;
+  position: relative;
+  overflow: hidden;
+}
+.timetable3 {
+  background: var(--uop-lighter-grey, rgba(247, 247, 247, 0.97));
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-235 {
+  padding: 8px 0px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-325 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.mask-group {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.mask-group2 {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.mask-group3 {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.mask-group4 {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame-326 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.mask-group5 {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.mask-group6 {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.mask-group7 {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.mask-group8 {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.it-support {
+  color: var(--myport-primary-light-blue, #0078b4);
+  text-align: left;
+  font-family: "EncodeSansExpanded-Bold", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  position: relative;
+}
+.frame-327 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.students {
+  color: var(--myport-primary-light-blue, #0078b4);
+  text-align: left;
+  font-family: "EncodeSansExpanded-Bold", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  position: relative;
+}
+.staff {
+  color: var(--myport-primary-light-blue, #0078b4);
+  text-align: left;
+  font-family: "EncodeSansExpanded-Bold", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  position: relative;
+}
+.frame-313 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  row-gap: 22px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex-shrink: 0;
+  width: 418px;
+  height: 511px;
+  position: absolute;
+  left: 32px;
+  top: 1089px;
+}
+.frame-316 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 407px;
+  height: 725px;
+  position: relative;
+  overflow: hidden;
+}
+.mini-card-carousel {
+  flex-shrink: 0;
+  width: 509px;
+  height: 222px;
+  position: relative;
+  overflow: hidden;
+}
+.title {
+  color: var(--myport-secondary-dark-purple, #3c023c);
+  text-align: left;
+  font-family: var(
+    --headings-drupal-h1-less768px-font-family,
+    "EncodeSansExpanded-Bold",
+    sans-serif
+  );
+  font-size: var(--headings-drupal-h1-less768px-font-size, 24px);
+  font-weight: var(--headings-drupal-h1-less768px-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-329 {
+  width: 509px;
+  height: 189px;
+  position: absolute;
+  left: 0px;
+  top: 46px;
+  overflow: hidden;
+}
+.frame-3282 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.mini-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 187px;
+  height: 158px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.image {
+  flex-shrink: 0;
+  width: 180px;
+  height: 90px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 2/1;
+}
+.frame-319 {
+  background: var(--myport-primary-light-blue, #0078b4);
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 180px;
+  position: relative;
+  overflow: hidden;
+}
+.win-a-uni-sweatshirt-by-completing-the-student-communications-survey {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --headings-drupal-h6-greater768px-font-family,
+    "EncodeSansExpanded-Medium",
+    sans-serif
+  );
+  font-size: var(--headings-drupal-h6-greater768px-font-size, 13px);
+  font-weight: var(--headings-drupal-h6-greater768px-font-weight, 500);
+  position: relative;
+  flex: 1;
+}
+.image-23 {
+  flex-shrink: 0;
+  width: 180px;
+  height: 90px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 2/1;
+}
+.rectangle-13 {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 509px;
+  height: 176px;
+  position: absolute;
+  left: 0px;
+  top: 48px;
+}
+.button-next-slide {
+  background: var(--myport-primary-light-blue, #0078b4);
+  padding: 9px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: 482px;
+  top: 115px;
+}
+.frame {
+  padding: 1px 14px 1px 14px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.arrow-left {
+  flex-shrink: 0;
+  width: 17.7px;
+  height: 29.4px;
+  position: relative;
+  overflow: visible;
+}
+.mini-card-carousel2 {
+  flex-shrink: 0;
+  width: 509px;
+  height: 248px;
+  position: relative;
+  overflow: hidden;
+}
+.mini-card2 {
+  flex-shrink: 0;
+  width: 187px;
+  height: 158px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.frame-3192 {
+  background: var(--myport-primary-light-blue, #0078b4);
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 180px;
+  position: absolute;
+  left: 7px;
+  top: 126px;
+  overflow: hidden;
+}
+.postgraduate-open-day {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --headings-drupal-h6-greater768px-font-family,
+    "EncodeSansExpanded-Medium",
+    sans-serif
+  );
+  font-size: var(--headings-drupal-h6-greater768px-font-size, 13px);
+  font-weight: var(--headings-drupal-h6-greater768px-font-weight, 500);
+  position: relative;
+  flex: 1;
+}
+.image-24 {
+  width: 180px;
+  height: 90px;
+  position: absolute;
+  left: 7px;
+  top: 36px;
+  object-fit: cover;
+  aspect-ratio: 2/1;
+}
+.frame-3283 {
+  background: var(--myport-secondary-light-purple, #621360);
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._7th-may-2025 {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --headings-drupal-h4-greater768px-font-family,
+    "EncodeSansExpanded-Medium",
+    sans-serif
+  );
+  font-size: var(--headings-drupal-h4-greater768px-font-size, 18px);
+  font-weight: var(--headings-drupal-h4-greater768px-font-weight, 500);
+  position: relative;
+}
+.image2 {
+  width: 180px;
+  height: 90px;
+  position: absolute;
+  left: 7px;
+  top: 36px;
+  object-fit: cover;
+  aspect-ratio: 2/1;
+}
+.arrow-left2 {
+  flex-shrink: 0;
+  width: 17.7px;
+  height: 29.4px;
+  position: relative;
+  overflow: visible;
+}
+.arrow-left3 {
+  flex-shrink: 0;
+  width: 17.7px;
+  height: 29.4px;
+  position: relative;
+  overflow: visible;
+}
+.footer-mobile {
+  background: var(--uop-white, #ffffff);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0px;
+  top: 1721.49px;
+  overflow: hidden;
+}
+.frame-318 {
+  background: var(--myport-primary-light-blue, #0078b4);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-228 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 386px;
+  position: relative;
+}
+.layer-1 {
+  flex-shrink: 0;
+  width: 200px;
+  height: 75.25px;
+  position: relative;
+  overflow: hidden;
+}
+.group {
+  width: 67.56%;
+  height: 44.84%;
+  position: absolute;
+  right: 0%;
+  left: 32.44%;
+  bottom: 31.38%;
+  top: 23.78%;
+  overflow: visible;
+}
+.vector {
+  width: 26.7%;
+  height: 96.28%;
+  position: absolute;
+  right: 73.3%;
+  left: 0%;
+  bottom: 3.72%;
+  top: 0%;
+  overflow: visible;
+}
+.frame-307 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-227 {
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.item-link {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.contact-us {
+  color: var(--uop-white, #ffffff);
+  text-align: left;
+  font-family: var(
+    --headings-drupal-h3-greater768px-font-family,
+    "EncodeSansExpanded-Medium",
+    sans-serif
+  );
+  font-size: var(--headings-drupal-h3-greater768px-font-size, 20px);
+  font-weight: var(--headings-drupal-h3-greater768px-font-weight, 500);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-2992 {
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 318px;
+  height: 37px;
+  position: relative;
+}
+.frame-301 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 24px;
+  position: relative;
+}
+.white-x-5-f-cmyk {
+  flex-shrink: 0;
+  width: 17.99px;
+  height: 18px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 17.99/18;
+}
+.frame-3042 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.item-link2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 238px;
+  position: relative;
+}
+._44-0-23-9284-4444 {
+  color: var(--uop-white, #ffffff);
+  text-align: left;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 600;
+  text-decoration: underline;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-298 {
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 318px;
+  position: relative;
+}
+.vector2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 18px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 4/3;
+}
+.myport-port-ac-uk {
+  color: var(--uop-white, #ffffff);
+  text-align: left;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-300 {
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 318px;
+  position: relative;
+}
+.captive-portal {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.other-ways-to-contact-us {
+  color: var(--uop-white, #ffffff);
+  text-align: left;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 600;
+  text-decoration: underline;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-210 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.social-icons-state {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 35px;
+  position: relative;
+  overflow: hidden;
+}
+.social-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 4/3;
+}
+.social-icon2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 29.98/30;
+}
+.social-icon3 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  aspect-ratio: 1;
+}
+.group2 {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.social-icon4 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 30.36/30;
+}
+.social-icon5 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 4/3;
+}
+.social-icon6 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 29.81/30;
+}
+.frame2 {
+  flex-shrink: 0;
+  width: 30px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 5/4;
+}
+.frame-310 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 386px;
+  position: relative;
+}
+.line-8 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: var(--uop-white, #ffffff);
+  border-width: 1px 0 0 0;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 0px;
+  position: relative;
+}
+.frame-311 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.quick-links2 {
+  color: var(--uop-white, #ffffff);
+  text-align: left;
+  font-family: var(
+    --headings-drupal-h3-greater768px-font-family,
+    "EncodeSansExpanded-Medium",
+    sans-serif
+  );
+  font-size: var(--headings-drupal-h3-greater768px-font-size, 20px);
+  font-weight: var(--headings-drupal-h3-greater768px-font-weight, 500);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.plus {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  overflow: visible;
+}
+.line-9 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: var(--uop-white, #ffffff);
+  border-width: 1px 0 0 0;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 0px;
+  position: relative;
+}
+.frame-232 {
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.student-services {
+  color: var(--uop-white, #ffffff);
+  text-align: left;
+  font-family: var(
+    --headings-drupal-h3-greater768px-font-family,
+    "EncodeSansExpanded-Medium",
+    sans-serif
+  );
+  font-size: var(--headings-drupal-h3-greater768px-font-size, 20px);
+  font-weight: var(--headings-drupal-h3-greater768px-font-weight, 500);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.plus2 {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  overflow: visible;
+}
+.line-10 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: var(--uop-white, #ffffff);
+  border-width: 1px 0 0 0;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 0px;
+  position: relative;
+}
+.frame-231 {
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.information-for {
+  color: var(--uop-white, #ffffff);
+  text-align: left;
+  font-family: var(
+    --headings-drupal-h3-greater768px-font-family,
+    "EncodeSansExpanded-Medium",
+    sans-serif
+  );
+  font-size: var(--headings-drupal-h3-greater768px-font-size, 20px);
+  font-weight: var(--headings-drupal-h3-greater768px-font-weight, 500);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.plus3 {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  overflow: visible;
+}
+.line-11 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: var(--uop-white, #ffffff);
+  border-width: 1px 0 0 0;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 0px;
+  position: relative;
+}
+.policies {
+  color: var(--uop-white, #ffffff);
+  text-align: left;
+  font-family: var(
+    --headings-drupal-h3-greater768px-font-family,
+    "EncodeSansExpanded-Medium",
+    sans-serif
+  );
+  font-size: var(--headings-drupal-h3-greater768px-font-size, 20px);
+  font-weight: var(--headings-drupal-h3-greater768px-font-weight, 500);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.plus4 {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  overflow: visible;
+}
+.line-12 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: var(--uop-white, #ffffff);
+  border-width: 1px 0 0 0;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 0px;
+  position: relative;
+}
+.background {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 386px;
+  position: relative;
+}
+._2025-university-of-portsmouth {
+  color: var(--uop-white, #ffffff);
+  text-align: left;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 600;
+  position: relative;
+  width: 237.32px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header-1023-px {
+  background: var(--myport-primary-light-blue, #0078b4);
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 450px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.frame-3172 {
+  flex-shrink: 0;
+  width: 1px;
+  height: 42px;
+  position: relative;
+}
+.layer-12 {
+  width: 111.63px;
+  height: 42px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+  aspect-ratio: 111.63/42;
+}
+.group3 {
+  width: 67.56%;
+  height: 70.15%;
+  position: absolute;
+  right: 0%;
+  left: 32.44%;
+  bottom: 6.08%;
+  top: 23.78%;
+  overflow: visible;
+}
+.vector3 {
+  width: 26.7%;
+  height: 96.28%;
+  position: absolute;
+  right: 73.3%;
+  left: 0%;
+  bottom: 3.72%;
+  top: 0%;
+  overflow: visible;
+}
+.frame-3162 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-290 {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.search {
+  flex-shrink: 0;
+  width: 28.53px;
+  height: 28.49px;
+  position: relative;
+  overflow: visible;
+}
+.frame-291 {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-288 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 25px;
+  height: 26px;
+  position: relative;
+  overflow: visible;
+}
